@@ -1,4 +1,4 @@
-# Security forecasting: Black-Scholes and Monte Carlo simulations
+# Stockmarket forecasting: Black-Scholes and Monte Carlo simulations
 ### Python implementation of stockmarket forecasting using Black-Scholes model and parallelised Monte Carlo simulations
 
 
