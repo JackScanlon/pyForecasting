@@ -1,5 +1,5 @@
 # Security forecasting: Black-Scholes and Monte Carlo simulations
-### Python implementation of stockmarket forecasting using Black-Scholes model and parellised Monte Carlo simulations
+### Python implementation of stockmarket forecasting using Black-Scholes model and parallelised Monte Carlo simulations
 
 Run instructions:
  - Install requirements.txt
@@ -17,6 +17,6 @@ Run instructions:
 To do list:
  - [X] Load 1 minute granularity security data from Y! Finance
  - [X] Implement Black-Scholes and Monte Carlo simulations for forecasting prices
- - [X] Parellise Monte Carlo simulations using multiprocessing
+ - [X] parallelise Monte Carlo simulations using multiprocessing
  - [X] Output as CSV
  - [ ] Visualise output
