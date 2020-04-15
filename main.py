@@ -65,7 +65,7 @@ def black_scholes(spot_price, t_steps, risk_rate, volatility):
 ## Func: run_inner
 ##  Args {i (number), in_monte (number), t_steps (number), spot_price (number), risk_rate (number), volatility (number)}
 ##  Desc: Used for parellised monte-carlo simulation in [model()]
-##  Returns: number
+##  Returns: np array
 def run_inner(i, in_monte, t_steps, spot_price, risk_rate, volatility):
     stock = np.zeros((in_monte, t_steps))
     for j in range(0, in_monte):
