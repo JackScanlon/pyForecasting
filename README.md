@@ -2,7 +2,7 @@
 ### Python implementation of stockmarket forecasting using Black-Scholes model and parallelised Monte Carlo simulations
 
 
-####Run instructions:
+Run instructions:
  - Install requirements.txt
  - In main.py, modify following function call for desired variables:
  ```
@@ -17,7 +17,7 @@
 
 
 
-####To do list:
+To do list:
  - [X] Load 1 minute granularity security data from Y! Finance
  - [X] Implement Black-Scholes and Monte Carlo simulations for forecasting prices
  - [X] parallelise Monte Carlo simulations using multiprocessing
